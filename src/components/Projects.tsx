@@ -51,7 +51,7 @@ export default function Projects() {
               className={
                 isFeatured
                   ? `
-                grid grid-cols-2  overflow-hidden rounded-2xl
+                grid grid-cols-2 max-md:grid-cols-1   overflow-hidden rounded-2xl
                 border border-slate-200
                 bg-white
                 shadow-sm
